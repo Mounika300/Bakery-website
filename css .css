@@ -1,0 +1,992 @@
+
+
+/* -------------------------------------------------------------------------
+     index page
+------------------------------------------------------------------------- */
+/* =======================================
+logo and button
+=========================================== */
+.envato-ligo{
+    background: black;
+    height: 70px;
+    margin-top: -7px;
+    /* margin-right: -7px; */
+    margin-left: -8px;
+   
+}
+
+.logo-image-one{
+    height: 55px;
+    width: 12%;
+}
+.justify-content-center{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/* ==================================================
+address and number search bar
+============================================= */
+.address-number-seach{
+    background-color: deeppink;
+    height: 60px;
+}
+.address-bar {
+    font-size: 18px;
+    color: white;
+    margin-inline-start: 6%;
+    padding: 17px;
+}
+.address-bar:hover{
+    text-decoration: underline;
+}
+.phone-bar{
+    margin-inline-start: 30%;
+    margin-top: -55px;
+    font-size: 18px;
+    color: white;
+}
+.search-bar{
+    margin-inline-start: 76%;
+    margin-top: -3.5%;
+}
+
+.search-bar input{
+    width: 250px;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* .address-bar input:focus{
+    width: 350px;
+} */
+.search-bar input:hover{
+    color: rgb(243, 6, 6);
+    font-weight:500;
+}
+
+.search-bar i{
+    position: absolute;
+    right: 100px;
+    margin-top: 15px;
+    font-size: 17px;  
+}
+
+.search-bar i:hover{
+    color:deeppink;
+}
+
+
+/* <!-- ================================================
+    header section
+    =================================================== --> */
+
+/* body{ */
+    /* background: url("slider-1 imge.jpg") no-repeat;
+    height: 500px;
+    width: 100%;
+    min-height: 100vh;
+    background-size:cover; */
+    /* background-position: center;  */
+/*    
+} */
+header{
+       
+    top: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    position: absolute;
+    /* height: 100px; */
+    /* padding: 10px 7%; */
+    /* padding: -1px; */
+    z-index: 1000;
+    margin-top: 123px;
+    height: 100px;
+}
+.logo-two img{
+    height: 70px;
+    width: 70px;
+    /* clip-path: circle(45%); */
+    border-radius: 20px;
+    margin-inline-start: 4%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 20%;
+    margin-top: -100px;
+  
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+    padding: 30px 25px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* padding: 10px  16px; */
+    text-align: center;
+    cursor: pointer;
+    display: block; 
+    color: rgb(66, 147, 161);
+   
+ }
+.navbar a:hover{
+    color: deeppink;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    max-height: 390px;
+    /* z-index: 1; */
+    background: white;
+    padding:  26px;
+    font-size: 15px;
+    margin-inline-start: -20px;
+    line-height: 40px;
+
+        
+}
+.dropdown-content a:hover{
+    color: deeppink;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content-two{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    max-height: 140px;
+    /* z-index: 1; */
+    background: white;
+    padding:  50px;
+    font-size: 15px;
+    margin-inline-start: -5px;
+    line-height: 40px;
+    
+}
+.dropdown-content-two a:hover{
+    color: deeppink;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dropdown-two:hover .dropdown-content-two{
+    display: block;
+}
+/* ==============================================
+hot page drop
+============================================== */
+.hot-page-drodown{
+    background-color:white;
+    height: 860px;
+    width: 88%;
+    box-shadow: 5px 15px 5px darkgray;
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-inline-start: -300px;
+}
+.dropdown-hot:hover .hot-page-drodown{
+    display: block;
+
+}
+.product-manu-hot-area{
+    /* background-color: #030000; */
+    border: solid 1px darkgray;
+    height: 770px;
+    width: 22%;
+}
+.manu-price-hot{
+    text-align: justify;
+    margin-inline-start: 25px;
+    color: rgb(66, 147, 161) ;
+     font-weight: 700;
+     font-size: 25px;
+    
+}
+.manu-rate-hot{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -50px;
+    border: solid 0 currentColor;
+    color: #fff;
+    background-color: #030000;
+}
+.manu-rate-hot:hover{
+    background-color: deeppink;
+}
+.input-value-hot{
+    
+    height: 30px;
+    width: 30px;
+    margin-top: -25px;
+    border-radius: 10px;
+    margin-inline-start: 30px;
+    text-align: center;
+}
+.input-plue-value-hot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;border: solid 0px currentColor;margin-inline-start: 75px;margin-top: -28px;
+    margin-top: -30px;
+
+}
+/* =============================================
+slider text
+-=============================================== */
+
+.slider-text-content{
+    background-color: white;
+    height: 265px;
+    width: 590px;
+   margin-inline-start: 150px;
+   margin-top: 60px;
+   border-radius: 15px;
+   margin-top: 70px;
+   box-shadow: 10px 10px 10px rgb(68, 62, 62);
+}
+.slider-text-title{
+    font-size: 75px;
+    text-align: center;
+    color: deeppink;
+    font-family: 'Brush Script MT', cursive;
+    font-weight:550;
+    
+}
+.slider-text-two{
+    font-size: 25px;
+    color: black;font-weight: 600;
+    margin-top: -27px;
+    margin-inline-start: 8%;
+    
+}
+.but-add-cart{
+    color: white;
+    margin-inline-start: 55px;
+    height: 49px;
+    width: 30%;
+    background-color: deeppink;
+    border-radius: 26px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 0px solid currentColor;
+}
+.slider-text-price-old{
+    font-size: 25px;
+    margin-inline-start: 85px;
+    text-decoration: line-through;
+    color: darkgrey;
+}
+.slider-text-new-price{
+    font-size: 45px;
+    margin-inline-start: 15px;
+    color: rgb(66, 147, 161) ;
+}
+
+/* <!-- ===========================================       -->
+          <!-- box concent text 
+      =====================================================     --> */
+
+    /* ---------------------------------
+    box-1    
+     ---------------------------------- */
+     .text-box-pink{
+        background-color: deeppink;
+        height: 330px;
+        width: 350px;
+        margin-inline-start: 8%;
+        /* background: url("bg-sp_1.svg") repeat-y -14px bottom; */
+    }
+    .cake-img-first{
+        padding: 33px;
+    }
+    .text-cake{
+         color: white;
+         margin-top: -25%;
+         margin-inline-start: 150px;
+    }
+    .concent-text-cake{
+        margin-top: 55px;
+        margin-inline-start: 9%;
+        line-height: 30px;
+        color: white;
+        font-size: 17px;
+        
+       
+    }
+/* ---------------------------------
+    box-2
+ ----------------------------------------       */
+
+ .text-box-blue{
+    background-color:cornflowerblue;
+    height: 330px;
+    width: 350px;
+    margin-top: -24.5%;
+    margin-inline-start: 38%;
+}
+.cake-img-second{
+    padding: 31px;
+}
+.text-cake-second{
+    color: white;
+     margin-top: -25%;
+     margin-inline-start: 145px;
+}
+.concent-text-cake-second{
+    margin-top: 55px;
+    margin-inline-start: 9%;
+    line-height: 30px;
+    color: white;
+    font-size: 17px;
+}
+/* ---------------------------------
+    box-3
+ ----------------------------------------       */
+ .text-box-green{
+    height: 330px;
+    width: 350px;
+    background-color:yellowgreen;
+    margin-inline-start: 68%;
+    margin-top: -330px;
+}
+.cake-img-three{
+    padding: 30px;
+}
+.text-cake-three{
+    color: white;
+     margin-top: -25%;
+     margin-inline-start: 145px;
+}
+.concent-text-cake-three{
+    margin-top: 55px;
+    margin-inline-start: 9%;
+    line-height: 30px;
+    color: white;
+    font-size: 17px;
+}
+/* <!-- ----------------------------------------------
+       title area and imagess
+       ------------------------------------------- --> */
+       .title-product{
+        text-align: center;
+        font: bold 54px "Quattrocento Sans", sans-serif;
+        margin-top: 65px;
+        text-decoration:wavy;
+        /* text-decoration-color: cornflowerblue; */
+        text-decoration: underline wavy deeppink 8px;
+    
+    }
+    /* =====================================
+.product-cart 1
+======================================= */
+.product-cart{
+    /* background-color: aqua; */
+    height: 379px;
+    width: 83%;
+    margin-inline-start: 10%;
+    margin-top: 50px;
+    border: solid 0.1px darkgray;
+ }
+ .Products-img-title{
+   float: right;
+   /* justify-items: center; */
+   padding: 3%;
+  margin-right: 10.2%;
+  font-size: 22px;
+ }
+ .Products-img-concent{
+     float: right;
+     /* margin-top: -270px; */
+     margin-top: -320px;
+     line-height: 30px;
+     text-align: justify;
+     margin-right: 2%;
+     font-size: 16px;
+     border-bottom: solid 1px darkgrey;
+     padding: 15px;
+ }
+ .product-price{
+     font-size: 25px;
+    margin-inline-start: 53%;
+     color: rgb(66, 147, 161) ;
+     font-weight: 700;
+     margin-top: -8%;
+ }
+ /* ------------------------------
+button
+------------------------------ */
+.button-value-one{
+    height: 30px;
+    width: 30px;
+    margin-inline-start: 63%;
+    border-radius: 20px;
+    font-size: 20px;
+    background: black;
+    border: 0px solid currentColor;
+    margin-top: -50px;
+
+}
+.button-value-one:hover{
+    background: deeppink;
+}
+.button-value-two{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-inline-start: 95px;
+    margin-top: -41px;
+    background-color: black;
+    border:  solid 0px currentColor;
+    color: white;
+    align-items: baseline;
+}
+.button-value-two:hover{
+    background-color: deeppink;
+    
+}
+.but-add-cart-two{
+    margin-inline-start: 74%;margin-top: -90px;
+    color: white;
+    /* margin-inline-start: 55px; */
+    height: 49px;
+    width: 14%;
+    background-color: deeppink;
+    border-radius: 26px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 0px solid currentColor;
+}
+/* =====================================
+.product-cart 2
+======================================= */
+.product-cart-two{
+    /* background-color: aqua; */
+    height: 379px;
+   width: 83%;
+   margin-inline-start: 10%;
+   /* margin-top: 50px; */
+   border: solid 0.1px darkgray;
+}
+
+.img-product-two{
+    float: right;
+    margin-right: -4px;
+   
+    
+}
+.Products-img-title-two{
+    padding: 3%;
+ margin-right: 10.2%;
+ font-size: 22px;
+}
+.Products-img-concent-two{
+    line-height: 30px;
+    margin-top: -20px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 15px;
+    border-bottom: solid 1px rgb(122, 120, 120);
+}
+.product-price-two{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-inline-start: 3%;
+    color:  rgb(44, 106, 117) ;
+
+}
+.button-value-twoo{
+    margin-inline-start: 100px;
+    height: 30px;
+    width: 30px;
+    border-radius: 49px;
+    margin-top: -35px;
+    background-color: black;
+    color: white;
+    border: 0px solid currentColor;
+}
+.button-value-twoo:hover{
+    background-color: deeppink;
+}
+/* <!-- ==============================================
+       product-manu area-one,two
+       ============================================== --> */
+       .product-manu-1{
+        /* background-color: coral; */
+        border: solid 1px darkgrey;
+        height: 760px;
+        width: 261px;
+        margin-inline-start: 10%;
+       }
+       .product-manu-2{
+        /* background-color: aqua; */
+        border: solid 1px darkgrey;
+        height: 760px;
+        width: 261px;
+        margin-inline-start: 2%;
+       
+    }
+   
+    .product-manu-3{
+        /* background-color: blue; */
+        border: solid 1px darkgrey;
+        height: 760px;
+        width: 261px;
+        margin-inline-start: 2%;
+    }
+    .product-manu-4{
+        height: 760px;
+        width: 261px;
+        /* background-color: cadetblue; */
+        margin-inline-start: 2%;
+        border: solid 1px darkgrey;
+    }
+    .manu-price{
+        font-size: 25px;
+        color:cornflowerblue;
+        font-weight: 700;
+        margin-inline-start: 15px;
+    }
+    .manu-rate{
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        margin-inline-start: 40%;
+        border: 0px solid currentColor;
+        background-color: black;
+        color: white;
+        margin-top: -46px;
+    }
+    .manu-rate:hover{
+        background-color: deeppink;
+    }
+    .input-value{
+        height: 30px;
+        width: 30px;
+        margin-top: -25px;
+        border-radius: 10px;
+        margin-inline-start: 30px;
+        text-align: center;
+
+    }
+    .input-plue-value{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: black;
+        color: white;border: solid 0px currentColor;margin-inline-start: 75px;margin-top: -28px;
+
+    }
+    .input-plue-value:hover{
+        background-color: deeppink;
+    }
+    
+    .background-black-img{
+        width: 100%;
+    }
+    
+/* ============================================
+                slider area
+=================================================== */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    /* background: url("banner-img 2.jpg"); */
+    /* margin-top: -80px;
+    height: 300px;
+    border-radius: 25px; */
+  }
+ 
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    /* padding: 8px 12px; */
+    margin-top: -130px;
+    position: absolute;
+    /* bottom: 8px; */
+    width: 100%;
+    margin-inline-start: 250px;
+    text-align: center;
+    text-align: justify;
+   
+  }
+  
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+   
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #030000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+   
+  
+  }
+  
+  .active, .dot:hover {
+    background-color: deeppink;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1000s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.6} 
+    to {opacity: 0.6}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  /* <!-- ===================================================
+  latest blog
+===================================================== --> */
+/* <!-- ============================
+area blog-1
+============================= --> */
+  .blog-areas-screen-one{
+    display: flex;
+  }
+  .blog-screen-one{
+    /* background: palegreen; */
+    border: solid 2px darkgray;
+    border-radius: 10px;
+    height: 640px;
+    width: 41.3%;
+    margin-inline-start: 98px;
+   
+  }
+  .blog-screen-two{
+    /* background: palegreen; */
+    border: solid 2px darkgray;
+    border-radius: 10px;
+    height: 640px;
+    width: 41.4%;
+    margin-inline-start:80px;
+  }
+  .blog-concent{
+    font-size: 25px;
+    color: cadetblue;
+    font-weight: 600;
+    padding: 27px;
+  }
+  .blog-concent:hover{
+    text-decoration: underline;
+  }
+  .blog-area-text{
+    line-height: 27px;
+    padding: 25px;
+    margin-top: -35px;
+    font-size: 16px;
+  }
+  /* <!-- ============================
+  area blog-2 same concent top
+============================= --> */
+  .blog-areas-screen-two{
+    display: flex;
+  }
+  /* <!-- ============================
+  footer area
+============================= --> */ 
+footer{
+    background-color: #030000;
+    height: 500px;
+    display: flex;
+    border-top-right-radius: 140px;
+}
+.footer-title{
+    color: white;
+    font-size: 45px;
+}
+
+/* ==================================
+ social icon area four
+====================================== */
+.footer-content-four{
+    margin-inline-start: 100px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+/* =======================================
+    link  area three
+========================================= */
+.footer-content-three{
+    margin-inline-start: 100px;
+    margin-top: 60px;
+}
+.footer-content-three p{
+    font-size: 17px;
+    color:rgb(104, 102, 102) ;
+    text-decoration: underline;
+   }
+   /* =======================================
+    account  area two
+========================================= */
+.footer-content-two{
+    margin-inline-start: 70px;
+    margin-top: 60px;
+}
+.footer-content-two p{
+    font-size: 17px;
+    color: rgb(104, 102, 102);
+    text-decoration: underline;
+    padding: 10px;
+}
+.footer-content-two p:hover{
+    color: aliceblue;
+}
+/* =======================================
+    concet  area one
+========================================= */
+.footer-content-one{
+    margin-top: 60px;
+    margin-inline-start: 30px;
+}
+.footer-content-one p{
+    font-size: 17px;
+    color: rgb(104, 102, 102);
+    margin-top: 20px;
+}
+/* -----------------------------------------------
+      about us page
+---------------------------------------------- */
+
+.img-title{
+    font-size: 50px;
+    position:absolute;
+
+}
+/* ==============================
+   image title inner
+   ================================== */
+   .img-title{
+    color: #fff;
+    margin: 0;
+    font-size: 72px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(240, 28, 28, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    margin-inline-start: 39%;
+    font-weight: 600;
+
+}
+/* ====================================
+short cut key about
+==================================== */
+.short-cut-key{
+    padding: 30px;
+    margin-inline-start: 3%;
+}
+.short-cut-key a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 600;
+}
+.short-cut-key a:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+
+/* ===================================
+   about the imageand concent
+   ==================================== */
+
+.about-img-one{
+    padding: 40px;
+    transition: transform .1s; /* Animation */
+    /* box-shadow: 2px 5px 2px rgb(19, 18, 18); */
+    
+}
+.about-img-one:hover{
+    transform: scale(0.8);
+
+}
+.about-the-concent{
+    float: right;
+    line-height: 33px;
+    margin-top: 55px;
+    margin-right: 18px;
+    text-align: justify;
+    
+ }
+/* --------------------------------------------
+CATALOG PAGE CODE
+--------------------------------------------- */
+/* ======================================
+          catalog img place
+======================================= */
+
+.catalog-grad{
+    background-color: rgb(82, 87, 87);
+    width: 252px;
+    height: 440px;
+    margin-inline-start: 80px;
+    border:  solid 1px darkgrey;
+}
+.catalog-grad img{
+    height: 438px;
+    width: 250px;
+    opacity: 0.4;
+}
+.catalog-grad img:hover{
+    opacity: 1;
+    color: #000;
+
+}
+
+.catalog-grad-two{
+    background-color: #585555;
+    width: 520px;
+    height: 210px;
+    margin-inline-start: 28%;
+    margin-top: -33%;
+    border: solid 1px darkgrey;
+}
+.catalog-grad-two img{
+    opacity: 0.4;
+}
+.catalog-grad-two img:hover{
+    opacity: 1;
+}
+
+/* --------------------------------------------
+BLOG PAGE CODE
+--------------------------------------------- */
+
+.blog-area-img-content{
+    /* background-color: #585555; */
+    border: solid 1px darkgrey;
+    height: 680px;
+    width:63%;
+    margin-inline-start: 60px;
+}
+.blog-area-text-line-1{
+    font-size: 17px;
+    color: #585555;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.blog-point-area{
+    font-size: 100px;
+    color: deeppink;
+    margin-top: -97px;
+}
+.blog-area-para-contant{
+    line-height: 30px;
+    padding: 40px;
+    margin-top: -20px;
+    
+}
+.blog-grad-right{
+    /* background-color: aquamarine; */
+    border: solid 1px darkgray;
+    height: 150%;
+    width: 260px;
+    margin-inline-start: 70%;
+    margin-top: -450px;
+}
+.blog-input-area input:hover{
+    color: cornflowerblue;
+    
+}
+.blog-input-area input{
+    border-radius: 10px;
+    margin-inline-start: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+.primey{
+    height: 50px;
+    width: 163px;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin-inline-start: 45px;
+    border: solid 0 currentColor;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+
+}
+.primey:hover{
+    background-color:cadetblue ;
+}
+.blog-post h3{
+    padding: 30px;
+}
+.blog-post img {
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    margin-inline-start: 20px;
+}
+.blog-post a{
+    text-decoration: none;
+    font-weight: 600;
+    color: cornflowerblue;
+    margin-inline-start: 10px;
+
+}
+.blog-post a:hover{
+    color: cadetblue;
+}
